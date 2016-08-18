@@ -1,0 +1,6 @@
+#!/bin/bash 通过命令解释器 bash 来解释执行一下代码
+#bash red.sh &>net.txt 这里不能追加写
+#bash red.sh 1>>net.txt 2>> net.txt 追加
+#red.sh
+ifconfig en0
+1111

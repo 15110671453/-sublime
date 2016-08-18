@@ -1,0 +1,44 @@
+
+shell文件权限与脚本执行
+CGI PHP 
+
+pwd 命令 查看当前的工作目录
+
+查看文件属性  查看文件权限
+d directory 代表是目录
+- 代表普通文件
+root 用户 所属组 root
+文件大小
+文件创建的时间
+ head -1 /etc/passwd
+ head -1 /etc/group
+
+ head命令 显示文件的最初几行
+ tail命令 显示文件的最后几行
+
+
+ 系统内用户分类
+	 r 读 w 写  x 执行
+	分析一个文件的权限如何分配：
+linux 用户的分类  u  所有者  g 所属组 o 其他用户 
+ 	root组内的root用户  root组内的其他用户  root组外的用户
+ 	ls -i a.txt 查看对应文件的权限分配信息
+
+ 	ls -la  sublimeJS.js 
+-rw-r--r--  1 lixiaoyan  staff  79  8 18 10:30 sublimeJS.js
+
+用户管理
+	查看用户 id  user1
+	用户添加 useradd user1
+	用户删除 userdel -r user1
+	用户权限修改 
+用户与组
+1、把用户加入组 
+	 gpasswd -a user1 root  解释：user1 同属于一个两个组root user1
+2、把组中用户删除
+	 gpasswd -d user1 root
+
+
+
+
+

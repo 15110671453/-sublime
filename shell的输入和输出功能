@@ -1,0 +1,53 @@
+shell的输入和输出功能
+
+#-n 不自动换行
+echo -n "please input your name"
+
+#-e 解析 转义字符
+echo -e "please \n input \n your \n name"
+
+#从键盘输入1
+read name 
+
+#从键盘输入2
+read -p 'please inpur your name' name2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

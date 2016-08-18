@@ -1,0 +1,15 @@
+清理FTP服务器的公共共享目录 每周五 
+这样一个自动办公脚本
+
+检查/var/ftp/pub/目录 将其中所有的字目录以及文件的详细列表
+当时的时间信息追加保存到/var/log/pubdir.log日志文件中
+然后清空该目录
+
+第一 编写任务脚本
+vi /opt/ftpclean.sh
+#!/bin/bash
+date  >>/var/log/pubdir.log 日期
+ls -lhR /var/ftp/pub >>/var/log/pubdir.log
+rm -rf /var/ftp/pub/*
+第二 写入任务计划
+crontab -e 30 17 **5 /opt/ftpclean.sh

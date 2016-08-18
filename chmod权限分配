@@ -1,0 +1,42 @@
+chmod权限分配
+第一：用户对文件的权限 管理
+chmod权限分配
+
+	chmod 分配权限 分为两大类
+	常用的字母权限分配
+		chmod a+x file
+		chmod a-x file
+		chmod u+x file
+		chmod 755 file
+		chmod o+w file
+		chmod o-w file
+		chmod g+w file
+		gpasswd -a user1 root
+
+		user1用户享用两个组的权限集合的并集权限
+
+		user1 user2 user3 user4
+
+四个用户的权限细化需求  该怎么实现
+user1 file rw
+user2 file rx
+user3 file wx
+user4 file rwx
+		常用的数字权限分配
+		r 4 w 2 x 1
+		chmod  755 file
+		755 rwxr-xr--
+		644 默认权限恢复
+
+acl权限
+
+
+
+
+
+
+
+
+第二：用户对命令 应用程序的权限 管理
+
+sudo权限 
