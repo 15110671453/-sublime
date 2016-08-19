@@ -1,0 +1,37 @@
+sublimetext安装 与 使用
+
+
+sublimetext可以浏览图片
+
+sublimetext 安装 默认就可以支持 很多开发语言的编写
+
+代码提示 到 代码风格
+
+
+快捷键 
+快速定位到CSS 样式 command+r 输入样式名
+快速定位到指定行 control+g 输入指定行号
+快读定位到文本 command+t 输入文件名
+快速新建文件 command+n
+选中光标行前面的内容 command＋shift＋ 左方向键
+多行编辑 command+d 多次command+d可以往下选中同样的单词，同时也会有多个光标存在，那么可以进行多行编辑
+command+shift+enter在当前行前插入一行
+command+enter在当前行后插入一行
+将光标移动到行尾command+delete 删除一整行
+从光标处删除至行尾 command+两次K
+command+反斜杠／ 注释
+command+option＋反斜杠／ 块注释
+command+c 复制
+command+v 粘贴
+撤销command+z
+取消撤销 command+shit+z
+快速保存 command+s
+快速另存为  command+shift+s
+快速关闭文件 command+w
+快速关闭程序 command+q
+调出控制台 与 关闭控制台  control+~
+command+l无论光标当前处于何位置 可以快速选中当前行的内容
+
+emment插件
+执行 emment命令 快速编辑 html
+
